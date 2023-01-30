@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <form id="casino-form">
+      <span><b>Generate a number between 0 and</b></span>
+      <input id="zeroTo" type="number" min="0" />
+      <br /><br />
+      <span>Guess the number: </span>
+      <input id="guess" type="number" min="0" />
+      <button>Play!</button>
+    </form>
+
+    <!--HTML for indexOriginal.js 
+    <form id="zeroTo-form">
+        <span><b>Generate a number between 0 and</b></span> 
+        <input type="number" />
+    </form> -->
+    <!--<br>-->
+    <!--줄바꿈-->
+    <!-- <form id="guess-form">
+        <span>Guess the number: </span>
+        <input type="number" required maxlength="0"/>
+        <button>Play!</button>
+    </form> -->
+
+    <div id="random-game">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="result"><strong></strong></div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
